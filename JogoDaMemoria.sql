@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS JogoDaMemoria;
+CREATE DATABASE JogoDaMemoria;
+USE JogoDaMemoria;
+
+CREATE TABLE Jogo(
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    tempo INT NOT NULL,
+    movimentos INT NOT NULL
+);
